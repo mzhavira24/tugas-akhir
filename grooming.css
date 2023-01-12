@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+  }
+
+  #atas {
+    background-color: #685fcf;
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+
+  header {
+    flex:1 1 200px;
+    margin-left: 50px;
+  }
+  
+  header p{
+    font-family: Satisfy;
+    margin-top: 20px;
+    font-size: 24px;
+    color: white;
+  }
+
+  nav {
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  
+  nav > a {
+    color: white;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+    padding: 35px 20px;
+    align-items: flex-end;
+    display: inline-block;
+  }
+  
+  
+  nav a:hover {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  article {
+    height: fit-content;
+  }
+  
+  article img {
+    top: 100px;
+   width: 1250px;
+   height: 800px;
+   position: absolute;
+   align-items: center;
+   opacity: 0.5;
+  }
+
+  .service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  article > h3 {
+    position: relative;
+    font-family: Poppins;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    top: 100px;
+  }
+
+  .card {
+    top: 40px;
+    position: relative;
+    left: 60px;
+    background: linear-gradient(#685fcf 10%, rgba(0, 0, 0, 0.81) 100%);
+    width: 260px;
+    height: 170px;
+    border-radius: 30px;
+}
+
+.card-title {
+    padding: 10px;
+    font-family: Poppins;
+    color: white;
+    text-align: center;
+}
+
+.card-text {
+    padding: 5px;
+    font-family: Poppins;
+    color: white;
+    text-align: center;
+}
+
+#book {
+    padding: 20px;
+    background-color: black !important;
+}
+
+  #cards {
+      background: linear-gradient(#685fcf 10%, rgba(0, 0, 0, 0.81) 100%) !important;
+  }
+
+  .btn {
+    background-color: black;
+    color: white !important;
+    border-radius: 20px;
+    border: none;
+    margin-top: 50px;
+  }
+
+  .footer {
+    background:rgb(0, 0, 0);
+    position: absolute;
+    top: 1300px;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: white;
+    font-weight: bold;
+    font-family: Poppins;
+    display: grid;
+    text-align: center;
+  }
+  

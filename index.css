@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(#685fcf 10.1%, rgba(0, 0, 0, 0.81) 90.9%);
+  height: 229vh;
+
+}
+
+#atas {
+  background-color: #685fcf;
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+header {
+  flex:1 1 200px;
+  margin-left: 50px;
+}
+
+header p{
+  font-family: Satisfy;
+  margin-top: 20px;
+  font-size: 24px;
+  color: white;
+}
+
+nav {
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+nav > a {
+  color: white;
+  font-size: 14px;
+  font-family: Poppins;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+  padding: 35px 20px;
+  align-items: flex-end;
+  display: inline-block;
+}
+
+nav a:hover {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+article {
+  height: 200px;
+}
+
+article img {
+ margin-right: 0;
+ width: 110%;  
+}
+
+article .iconblock {
+  padding: 90px;
+}
+
+
+
+.footer {
+  background:rgb(0, 0, 0);
+  position: absolute;
+  top: 1300px;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: white;
+  font-weight: bold;
+  font-family: Poppins;
+  display: grid;
+  text-align: center;
+}
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+.form-control {
+  background: #212529;
+  border-color: #545454;
+}
+
+.form-control:focus {
+  background: #212529;
+}
+
+footer {
+  background: #212529;
+}
+
